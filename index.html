@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexohm Clubber</title>
+    <link rel="stylesheet" href="/index.css" />
+    <meta name="description" content="Hexohm Clubber" />
+  </head>
+  <body>
+    <nav>
+      <span class="position-relative">
+        <img src="/assets/logohexohm.png" alt="hexohm logo" />
+        <p>Hexohm Clubber</p>
+      </span>
+      <span class="copyright">
+        <b> &copy;</b>
+      </span>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span class="mobile">
+        <img src="/assets/hamburger-button.png" alt="hamburger button" />
+      </span>
+    </nav>
+
+    <header>
+      <section>
+        <h1>Welcome To The Hexohm Clubber</h1>
+        <p>This is the club with your passion of Hexohm</p>
+      </section>
+    </header>
+    <main>
+      <section>
+        <h2>About Hexohm</h2>
+        <div class="flex-container">
+          <img src="/assets/vaping4.jpg" alt="A man is vaping" />
+          <p>
+            Hexohm is a mechanical mod that provides the best experience while
+            vaping. You can setup the device according to your taste.
+            <br />
+            Least but not last, Hexohm provides you lifetime guarantee as long
+            as you still use that device.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Hexohm Facts</h2>
+        <div class="flex-container-2">
+          <ul>
+            <li>Every device has unique serial code</li>
+            <li>
+              Within certain potentio number, it equals hundreds watts on
+              regular mod
+            </li>
+            <li>
+              Although it is US device, you can claim the guarantee in nearby
+              local store
+            </li>
+          </ul>
+          <figure>
+            <img src="assets/hexohmbox.png" alt="Box of Hexohm" />
+            <figcaption>A General Box of Hexohm</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Kinds of Hexohm</h2>
+        <div class="grid-container">
+          <div class="img-1">
+            <img src="/assets/hexohmblack.png" alt="hybrid hexohm" />
+          </div>
+          <div class="img-2">
+            <img src="/assets/hexohmhybrid.png" alt="black hexohm" />
+          </div>
+          <div class="img-3">
+            <img src="/assets/hexohmblue.png" alt="blue hexohm" />
+          </div>
+          <div class="img-4">
+            <img src="/assets/hexohmorange.png" alt="orange hexohm" />
+          </div>
+          <div class="img-5">
+            <img src="/assets/hexohmpurple.png" alt="purple hexohm" />
+          </div>
+          <div class="img-6">
+            <img src="/assets/hexohmwhite.png" alt="white hexohm" />
+          </div>
+          <div class="img-7">
+            <img src="/assets/hexomgreen.png" alt="green hexohm" />
+          </div>
+        </div>
+        <div>
+          <ol>
+            <li>Anodized</li>
+            <li>Powder Coat</li>
+            <li>Artisan</li>
+            <li>Hex Angels</li>
+          </ol>
+        </div>
+        <div class="artisan-pict">
+          <figure>
+            <img src="assets/hexohmhybrid4.png" alt="Unique Hexohm Design" />
+            <figcaption>Five Artisan Hexohm</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>More About Hexohm</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/_aBCSxZWpHE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="form">
+        <h2>Come and Join Us!</h2>
+        <form action="/action.php" method="POST">
+          <fieldset>
+            <legend>Personal Data:</legend>
+            <div>
+              <label for="fullname">Full Name</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter Your Fullname"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <div>
+              <p>Do you live in Jakarta?</p>
+              <input
+                type="radio"
+                id="option-1"
+                name="location"
+                value="1"
+                checked
+              />
+              <label for="option-1">Yes</label>
+              <input type="radio" id="option-2" name="location" value="1" />
+              <label for="option-2">No</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional Information:</legend>
+            <div>
+              <p>What do you think about vaping with Hexohm</p>
+              <input
+                type="checkbox"
+                value="Interesting"
+                name="opinion"
+                id="option-3"
+              />
+              <label for="option-3">Interesting</label>
+
+              <input
+                type="checkbox"
+                value="Superb"
+                name="opinion"
+                id="option-4"
+              />
+              <label for="option-4">Superb</label>
+
+              <input
+                type="checkbox"
+                value="So so"
+                name="opinion"
+                id="option-5"
+              />
+              <label for="option-5">So so</label>
+            </div>
+
+            <div>
+              <label for="story">Reason of Join</label>
+              <textarea
+                id="story"
+                name="story"
+                rows="3"
+                cols="33"
+                placeholder="Tell us about your passion joining us"
+              ></textarea>
+            </div>
+
+            <div>
+              <input
+                type="file"
+                id="picture"
+                name="picture"
+                accept="image/png, image/jpeg"
+                required
+              />
+            </div>
+          </fieldset>
+          <div class="button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
