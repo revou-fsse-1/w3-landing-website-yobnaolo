@@ -175,7 +175,7 @@ iframe {
     margin-right: -160px;
     margin-top: 28px;
     border-radius: 12px;
-    max-width: max-content;
+    max-width: -webkit-full-screen
 }
 
 .form input [type="text"],
